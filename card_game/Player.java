@@ -10,5 +10,13 @@ public Player(String name, String hand){
   this.hand = hand;
 }
 
+public String getName(){
+  return this.name;
+}
+
+public String getHand(){
+  return this.hand;
+}
+
 }
 
