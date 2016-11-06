@@ -1,19 +1,22 @@
 package card_game;
 
+
 public class Card{
+  public String cardValue;
+  public String cardSuit;
 
-  private CardValue cardValue;
-  private CardSuit cardSuit;
-
-  public Card (CardValue cardValue, CardSuit cardSuit) {
+  public Card (String cardValue, String cardSuit) {
     this.cardValue = cardValue;
     this.cardSuit = cardSuit;
   }
 
-  public CardValue getCardValue(){
+  public String getCardValue(){
     return this.cardValue;
   }
 
+public String getCardSuit(){
+  return this.cardSuit;
+}
 
 
 
